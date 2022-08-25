@@ -1,0 +1,144 @@
+##===================================================================
+## gitignore do angular
+.DS_STORE
+
+dist
+bazel-out
+integrationbazelbazel-
+.log
+node_modules
+
+# CircleCI temporary file for cache key computation.
+# See `save_month_to_file` in `.circleciconfig.yml`.
+month.txt
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea
+.devcontainer
+!.devcontainerREADME.md
+!.devcontainerrecommended-devcontainer.json
+!.devcontainerrecommended-Dockerfile
+.settings
+.vscodelaunch.json
+.vscodesettings.json
+.vscodetasks.json
+.swo
+.swp
+modules.settings
+modules.vscode
+.vimrc
+.nvimrc
+
+# Don't check in secret files
+secret.js
+
+# Ignore npmyarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+modulesrollup-testdist
+
+# User specific bazel settings
+.bazelrc.user
+
+# User specific ng-dev settings
+.ng-dev.user
+
+.notes.md
+baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+.history
+
+# Husky
+.husky_
+##===================================================================
+# See httphelp.github.comignore-files for more about ignoring files.
+
+# Compiled output
+dist
+tmp
+out-tsc
+bazel-out
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9
+.launch
+.settings
+.sublime-workspace
+
+# Visual Studio Code
+.vscode
+!.vscodesettings.json
+!.vscodetasks.json
+!.vscodelaunch.json
+!.vscodeextensions.json
+.history
+
+# Miscellaneous
+.angularcache
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+##===================================================================
+
+
+##===================================================================
+## gitignore do dotnet
+# From .NET Core 3.0 you can use the command `dotnet new gitignore` to generate a customizable .gitignore file
+
+.swp
+.~
+project.lock.json
+.DS_Store
+.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+.suo
+.user
+.userosscache
+.sln.docstates
+
+# Build results
+[Dd]ebug
+[Dd]ebugPublic
+[Rr]elease
+[Rr]eleases
+x64
+x86
+build
+bld
+[Bb]in
+[Oo]bj
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs
+##===================================================================
